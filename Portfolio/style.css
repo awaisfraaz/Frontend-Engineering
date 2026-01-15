@@ -33,7 +33,7 @@ a{
 nav{
     border-bottom:1px solid black;
 }
-button{
+.resume{
     border:none;
     background-color:blue;
     color: white;
@@ -41,13 +41,75 @@ button{
     padding: 10px 20px;
     cursor: pointer;
 }
-button:hover{
+.resume:hover{
     background-color: darkblue;
 }
 .logo h2{
     margin-left: 20px;
     padding: 13px 0 10px;
 }
+section{
+    display:flex;
+}
+.imagecontainer{
+    width:35%;
+}
+.info{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+#name{
+    color:blue;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+.info p{
+    width: 72%;
+
+}
+#download{
+      border:none;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#projects{
+   border:none;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#download:hover{
+    background-color: darkblue;
+}
+#projects:hover{
+    background-color: darkblue;
+}
+#information{
+    /* height: 928px; */
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+
+}
+footer{
+    display: flex;
+}
+footer ul{
+    display: flex;
+    gap:30px
+}
+
 /* @media (max-width:600px){
     .nav-links ul{
         flex-direction: column;
