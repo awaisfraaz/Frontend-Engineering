@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    margin-left: auto;
+}
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav{
+    border-bottom:1px solid black;
+}
+button{
+    border:none;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+}
