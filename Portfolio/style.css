@@ -84,9 +84,7 @@ section{
 }
 
 
-#information{
-    /* height: 928px; */
-}
+
 .imagecontainer{
     display: flex;
     justify-content:space-between;
